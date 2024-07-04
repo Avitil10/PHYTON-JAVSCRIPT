@@ -1,15 +1,6 @@
-body{
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
-}
-
-
-
 .menu{   
     height: 40px;
     width: 100%;
-    background: #a8a8a8;
     text-align: right;
     align-content: end;
     text-align: -webkit-right;
@@ -26,4 +17,50 @@ img{
 
     text-align: -webkit-center;
    
+}
+
+.btn_menu{
+    margin-right: 60px;
+}
+
+a{
+    padding-left: 7px;
+    
+}
+
+.google{
+    align-items: center;
+    margin-top: -100px;
+}
+
+.btn_buscar{
+    display: block;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.barra_busqueda{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 584px;
 }
