@@ -1,6 +1,23 @@
-.menu{
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+
+
+.menu{   
+    height: 40px;
+    width: 100%;
+    background: #a8a8a8;
     text-align: right;
-    margin: 20px;
-    text-decoration: none;
-    background-color: aquamarine;
+    align-content: end;
+    text-align: -webkit-right;
+    padding-top: 20px;
+}
+
+.main{
+    height: 100%;
+    text-align: -webkit-center;
+    padding-top: 20%;
 }
